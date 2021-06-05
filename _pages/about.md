@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+I am a PhD graduate in pattern recognition and intelligent system at Shenzhen Institute of Advanced Technology (SIAT), Chinese Academy of Sciences (CAS), Shenzhen, China (Sept. 2015 - Jun. 2021). My dissertation is "Fast Three-Dimensional Magnetic Resonance Imaging". I received my bachelor’s degree in biomedical engineering from Southern Medical University in Jun. 2015. For more personal details, please visit my [Linkedin](https://www.linkedin.com/in/zhilang-qiu-b73965134) homepage. For more publication details, please visit my [Researchgate](https://researchgate.net/profile/Zhilang-Qiu) or [Goodle Scholar](https://scholar.google.com/citations?hl=zh-CN&user=tmgnYv4AAAAJ) homepage.
 
 A data-driven personal website
 ======
