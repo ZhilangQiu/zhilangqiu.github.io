@@ -8,7 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD graduate in pattern recognition and intelligent system at Shenzhen Institute of Advanced Technology (SIAT), Chinese Academy of Sciences (CAS), Shenzhen, China (Sept. 2015 - Jun. 2021). My dissertation is "Fast Three-Dimensional Magnetic Resonance Imaging". I received my bachelor’s degree in biomedical engineering from Southern Medical University in Jun. 2015. For more personal details, please visit my [Linkedin](https://www.linkedin.com/in/zhilang-qiu-b73965134) homepage. For more publication details, please visit my [Researchgate](https://researchgate.net/profile/Zhilang-Qiu) or [Goodle Scholar](https://scholar.google.com/citations?hl=zh-CN&user=tmgnYv4AAAAJ) homepage.
+Zhilang Qiu, PhD, is a Postdoctoral Research Fellow at McLean Hospital and Harvard Medical School. Trained in biomedical engineering and magnetic resonance imaging, Dr. Qiu develops advanced MRI and MR spectroscopy techniques to probe brain biology, physiology, structure, and function with high precision. His work focuses on pushing the limits of scan efficiency, sensitivity, and specificity through new modeling approaches, encoding strategies, and reconstruction methods. Dr. Qiu applies these methodological innovations to advance the study of neuropsychiatric disorders, including Alzheimer’s disease, schizophrenia, and depression, aiming to uncover hidden neurobiological processes that contribute to disease mechanisms, developmental trajectories, biomarker discovery, and treatment response. 
+For more academic-social details, please visit [Linkedin](https://www.linkedin.com/in/zhilang-qiu-b73965134) homepage. For more publication details, please visit my [Researchgate](https://researchgate.net/profile/Zhilang-Qiu) or [Goodle Scholar](https://scholar.google.com/citations?user=tmgnYv4AAAAJ) homepage.
 
 A data-driven personal website
 ======
