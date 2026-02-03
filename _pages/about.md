@@ -45,7 +45,6 @@ I have contributed to the development of multiple wave-encoded imaging technique
 My work has demonstrated that combining advanced acquisition strategies (e.g., wave encoding and virtual conjugate coils) with tailored reconstruction algorithms can substantially improve acceleration performance in 3D MRI, particularly in high-resolution and high-bandwidth imaging regimes. Collectively, these contributions aim to push the limits of scan efficiency while maintaining robustness and image fidelity, providing a foundation for fast 3D MRI in both research and clinical settings. 
 
 **Direction 2: Multidimensional MR Fingerprinting for Simultaneous Relaxation and Diffusion Quantification**
-------
 My research focuses on advancing multidimensional MR fingerprinting (MRF) methodologies to enable simultaneous and robust quantification of relaxation and diffusion parameters within a single acquisition. By integrating diffusion encoding into the flexible MRF framework, this work aims to enhance sensitivity and specificity for tissue microstructure characterization while maintaining high scan efficiency.
 
 A key challenge in multidimensional MRF, particularly for SSFP-based diffusion imaging, is its high sensitivity to motion-induced phase errors, which can severely degrade signal coherence and quantification accuracy. Rather than suppressing phase errors through hardware-intensive or SNR-compromising strategies, I develop explicit phase error modeling approaches within the MRF framework to improve robustness and estimation fidelity.
