@@ -25,33 +25,29 @@ I received my PhD in Pattern Recognition and Intelligent Systems from the Univer
 
 I obtained my Bachelor of Engineering degree in Biomedical Engineering from Southern Medical University. My undergraduate training provided a strong foundation in biomedical signal processing, medical imaging, and engineering principles that continue to inform my interdisciplinary research in neuroimaging.
 
-Past Research Direction 1: Advanced Acquisition and Reconstruction for Fast 3D MRI
+Current Research Directions: 
 ------
+**Direction 1: Glymphatic MRI for Noninvasive Measurement of Glymphatic Function in Neuropsychiatric Disorders**
+One of my current research focuses on developing advanced MRI techniques to noninvasively probe the glymphatic system and its role in brain physiology and pathology. By leveraging innovative acquisition strategies, quantitative modeling, and robust reconstruction methods, I aim to improve sensitivity and specificity for imaging fluid transport and clearance pathways in the brain.
+
+This work seeks to push the limits of scan efficiency and quantitative accuracy, enabling reliable characterization of glymphatic function in vivo. These methodological advances are applied to the study of neuropsychiatric and neurodegenerative disorders, with the goal of uncovering previously inaccessible physiological processes related to disease mechanisms, progression, and treatment response.
+
+**Direction 2: ³¹P Magnetization Transfer MR Spectroscopic Imaging for Cerebral Energy Metabolism**
+Another one of my current research focuses on developing advanced ³¹P MR spectroscopic imaging (MRSI) techniques to noninvasively assess cerebral energy metabolism and associated metabolic exchange processes. By integrating magnetization transfer strategies with optimized acquisition, modeling, and reconstruction methods, I aim to improve sensitivity, spatial resolution, and quantitative accuracy in multinuclear MR spectroscopy.
+
+Research Directions
+------
+**Direction 1: Advanced Acquisition and Reconstruction Methods for for Fast 3D Parallel MRI**
 One of my past research focused on developing advanced MRI acquisition and reconstruction strategies to enable fast, high-resolution 3D imaging without compromising image quality. A central theme of this work is the integration of wave encoding with parallel imaging and innovative reconstruction frameworks to improve conditioning under highly undersampled acquisitions.
 
 I have contributed to the development of multiple wave-encoded imaging techniques, including Wave-CAIPI–based methods and reduced field-of-view parallel imaging, addressing key challenges such as aliasing artifacts, reconstruction burden, and workflow efficiency. These approaches span both Cartesian and non-Cartesian acquisition schemes and incorporate theoretical modeling, parameter optimization, and practical implementation considerations.
 
 My work has demonstrated that combining advanced acquisition strategies (e.g., wave encoding and virtual conjugate coils) with tailored reconstruction algorithms can substantially improve acceleration performance in 3D MRI, particularly in high-resolution and high-bandwidth imaging regimes. Collectively, these contributions aim to push the limits of scan efficiency while maintaining robustness and image fidelity, providing a foundation for fast 3D MRI in both research and clinical settings. 
 
-Past Research Direction 2: Multidimensional MR Fingerprinting for Simultaneous Relaxation and Diffusion Quantification
+**Direction 2: Multidimensional MR Fingerprinting for Simultaneous Relaxation and Diffusion Quantification**
 ------
 My research focuses on advancing multidimensional MR fingerprinting (MRF) methodologies to enable simultaneous and robust quantification of relaxation and diffusion parameters within a single acquisition. By integrating diffusion encoding into the flexible MRF framework, this work aims to enhance sensitivity and specificity for tissue microstructure characterization while maintaining high scan efficiency.
 
 A key challenge in multidimensional MRF, particularly for SSFP-based diffusion imaging, is its high sensitivity to motion-induced phase errors, which can severely degrade signal coherence and quantification accuracy. Rather than suppressing phase errors through hardware-intensive or SNR-compromising strategies, I develop explicit phase error modeling approaches within the MRF framework to improve robustness and estimation fidelity.
 
 In parallel, I have developed self-calibrated subspace reconstruction methods that integrate low-rank modeling, matrix completion, and incoherent sampling strategies to address severe undersampling in multidimensional MRF. These approaches enable accurate joint estimation of T1, T2, and diffusion parameters while reducing aliasing artifacts and capturing phase variations. Collectively, this research establishes a principled framework for efficient, multidimensional quantitative MRI that combines advanced modeling with practical reconstruction strategies.
-
-**Markdown generator**
-
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-Current Research Direction 1: Glymphatic MRI for Noninvasive Measurement of Glymphatic Function in Neuropsychiatric Disorders
-------
-One of my current research focuses on developing advanced MRI techniques to noninvasively probe the glymphatic system and its role in brain physiology and pathology. By leveraging innovative acquisition strategies, quantitative modeling, and robust reconstruction methods, I aim to improve sensitivity and specificity for imaging fluid transport and clearance pathways in the brain.
-
-This work seeks to push the limits of scan efficiency and quantitative accuracy, enabling reliable characterization of glymphatic function in vivo. These methodological advances are applied to the study of neuropsychiatric and neurodegenerative disorders, with the goal of uncovering previously inaccessible physiological processes related to disease mechanisms, progression, and treatment response.
-
-Current Research Direction 2: ³¹P Magnetization Transfer MR Spectroscopic Imaging for Cerebral Energy Metabolism
-------
-Another one of my current research focuses on developing advanced ³¹P MR spectroscopic imaging (MRSI) techniques to noninvasively assess cerebral energy metabolism and associated metabolic exchange processes. By integrating magnetization transfer strategies with optimized acquisition, modeling, and reconstruction methods, I aim to improve sensitivity, spatial resolution, and quantitative accuracy in multinuclear MR spectroscopy.
