@@ -46,13 +46,12 @@ In parallel, I have developed self-calibrated subspace reconstruction methods th
 I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
 ) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
 
-How to edit your site's GitHub repository
+Current Research Direction 1: Glymphatic MRI for Noninvasive Measurement of Glymphatic Function in Neuropsychiatric Disorders
 ------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+One of my current research focuses on developing advanced MRI techniques to noninvasively probe the glymphatic system and its role in brain physiology and pathology. By leveraging innovative acquisition strategies, quantitative modeling, and robust reconstruction methods, I aim to improve sensitivity and specificity for imaging fluid transport and clearance pathways in the brain.
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+This work seeks to push the limits of scan efficiency and quantitative accuracy, enabling reliable characterization of glymphatic function in vivo. These methodological advances are applied to the study of neuropsychiatric and neurodegenerative disorders, with the goal of uncovering previously inaccessible physiological processes related to disease mechanisms, progression, and treatment response.
 
-For more info
+Current Research Direction 2: ³¹P Magnetization Transfer MR Spectroscopic Imaging for Cerebral Energy Metabolism
 ------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+Another one of my current research focuses on developing advanced ³¹P MR spectroscopic imaging (MRSI) techniques to noninvasively assess cerebral energy metabolism and associated metabolic exchange processes. By integrating magnetization transfer strategies with optimized acquisition, modeling, and reconstruction methods, I aim to improve sensitivity, spatial resolution, and quantitative accuracy in multinuclear MR spectroscopy.
