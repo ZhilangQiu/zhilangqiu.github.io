@@ -19,22 +19,27 @@ Prior to this, I worked as a Research Scientist at Case Western Reserve Universi
 
 I received my doctoral training at the Shenzhen Institutes of Advanced Technology (SIAT), Chinese Academy of Sciences, as part of the PhD program at the University of Chinese Academy of Sciences. My research background spans biomedical engineering and magnetic resonance imaging, with a sustained focus on improving scan efficiency, sensitivity, and specificity through innovative modeling, encoding, and reconstruction approache.
 
-Getting started
+Education
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+I received my PhD in Pattern Recognition and Intelligent Systems from the University of Chinese Academy of Sciences. My doctoral research was conducted at the Shenzhen Institutes of Advanced Technology (SIAT), Chinese Academy of Sciences, where I developed advanced methodologies in biomedical engineering and magnetic resonance imaging.
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+I obtained my Bachelor of Engineering degree in Biomedical Engineering from Southern Medical University. My undergraduate training provided a strong foundation in biomedical signal processing, medical imaging, and engineering principles that continue to inform my interdisciplinary research in neuroimaging.
 
-Create content & metadata
+Past Research Direction 1: Advanced Acquisition and Reconstruction for Fast 3D MRI
 ------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+One of my past research focused on developing advanced MRI acquisition and reconstruction strategies to enable fast, high-resolution 3D imaging without compromising image quality. A central theme of this work is the integration of wave encoding with parallel imaging and innovative reconstruction frameworks to improve conditioning under highly undersampled acquisitions.
+
+I have contributed to the development of multiple wave-encoded imaging techniques, including Wave-CAIPI–based methods and reduced field-of-view parallel imaging, addressing key challenges such as aliasing artifacts, reconstruction burden, and workflow efficiency. These approaches span both Cartesian and non-Cartesian acquisition schemes and incorporate theoretical modeling, parameter optimization, and practical implementation considerations.
+
+My work has demonstrated that combining advanced acquisition strategies (e.g., wave encoding and virtual conjugate coils) with tailored reconstruction algorithms can substantially improve acceleration performance in 3D MRI, particularly in high-resolution and high-bandwidth imaging regimes. Collectively, these contributions aim to push the limits of scan efficiency while maintaining robustness and image fidelity, providing a foundation for fast 3D MRI in both research and clinical settings. 
+
+Past Research Direction 2: Multidimensional MR Fingerprinting for Simultaneous Relaxation and Diffusion Quantification
+------
+My research focuses on advancing multidimensional MR fingerprinting (MRF) methodologies to enable simultaneous and robust quantification of relaxation and diffusion parameters within a single acquisition. By integrating diffusion encoding into the flexible MRF framework, this work aims to enhance sensitivity and specificity for tissue microstructure characterization while maintaining high scan efficiency.
+
+A key challenge in multidimensional MRF, particularly for SSFP-based diffusion imaging, is its high sensitivity to motion-induced phase errors, which can severely degrade signal coherence and quantification accuracy. Rather than suppressing phase errors through hardware-intensive or SNR-compromising strategies, I develop explicit phase error modeling approaches within the MRF framework to improve robustness and estimation fidelity.
+
+In parallel, I have developed self-calibrated subspace reconstruction methods that integrate low-rank modeling, matrix completion, and incoherent sampling strategies to address severe undersampling in multidimensional MRF. These approaches enable accurate joint estimation of T1, T2, and diffusion parameters while reducing aliasing artifacts and capturing phase variations. Collectively, this research establishes a principled framework for efficient, multidimensional quantitative MRI that combines advanced modeling with practical reconstruction strategies.
 
 **Markdown generator**
 
