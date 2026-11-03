@@ -10,7 +10,7 @@ locale                   : "zh-CN"
 title                    : "Zhilang Qiu"
 title_separator          : "-"
 name                     : &name "Zhilang Qiu"
-description              : &description "personal description"
+description              : &description "Postdoctoral Research Fellow at McLean Hospital / Harvard Medical School. Developing advanced MRI and MRS techniques for neuropsychiatric disorders."
 url                      : https://zhilangqiu.github.io # the base hostname & protocol for your site e.g. "https://zhilangqiu.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ZhilangQiu/zhilangqiu.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Zhilang Qiu"
   avatar           : "photo_qzl.jpg"
-  bio              : "A MR researcher"
+  bio              : "Postdoctoral Research Fellow, McLean Hospital / Harvard Medical School"
   location         : "Belmont, MA, USA"
   employer         :
   pubmed           : "https://pubmed.ncbi.nlm.nih.gov/?term=Zhilang+Qiu"
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "zhilang-qiu-b73965134"
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
