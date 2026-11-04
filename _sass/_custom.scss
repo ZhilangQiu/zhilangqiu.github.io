@@ -1,133 +1,483 @@
 /* ==========================================================================
-   Custom site-specific overrides
+   Site-specific design layer (loaded last, overrides the base theme)
+   Keep this file ASCII-only: some Sass builds read it as US-ASCII.
    ========================================================================== */
 
-$site-blue: #1565C0;
-$site-blue-light: #1976D2;
-$site-blue-pale: #E3F2FD;
+$ink:          #1c2433;
+$ink-soft:     #475467;
+$muted:        #6b7385;
+$line:         #e4e7ec;
+$surface:      #f6f8fb;
+$accent:       #1f4fbf;
+$accent-dark:  #173c94;
+$accent-soft:  #eaf0fc;
 
-/* Links — consistent blue throughout */
+$font-sans:  "Inter", -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$font-serif: "Source Serif 4", "Source Serif Pro", Georgia, serif;
+
+/* ---------- Base ---------- */
+
+html { font-size: 16px; }
+@media (min-width: 64em) { html { font-size: 17px; } }
+
+body {
+  font-family: $font-sans;
+  color: $ink-soft;
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6,
+.page__title {
+  font-family: $font-serif;
+  color: $ink;
+  letter-spacing: -0.01em;
+}
+
 a {
-  color: $site-blue-light;
-
-  &:visited {
-    color: $site-blue;
-  }
-
-  &:hover {
-    color: $site-blue;
-    text-decoration: underline;
-  }
+  color: $accent;
+  text-decoration: none;
+  &:visited { color: $accent; }
+  &:hover { color: $accent-dark; text-decoration: underline; text-underline-offset: 2px; }
 }
 
-/* Masthead nav links */
-.masthead a,
-.masthead a:visited {
-  color: $site-blue;
-}
+.page__content,
+.archive {
+  line-height: 1.7;
 
-.greedy-nav a {
-  color: $site-blue;
+  p, li { font-size: 1rem; }
 
-  &:hover {
-    color: $site-blue-light;
+  /* Markdown h1 (=====) and h2 (##) section headings */
+  h1, h2 {
+    font-size: 1.45rem;
+    font-weight: 600;
+    margin: 2.4em 0 0.9em;
+    padding-bottom: 0.4em;
+    border-bottom: 1px solid $line;
   }
+
+  h3 { font-size: 1.1rem; font-weight: 600; color: $ink; }
 }
 
-/* Author profile sidebar */
-.author__name {
-  font-size: 1.1em;
+.page__title {
+  font-size: 2.1rem;
   font-weight: 700;
-  color: $site-blue;
+  margin-top: 0.2em;
+  margin-bottom: 0.6em;
+}
+
+.page__lead {
+  font-size: 1.12rem;
+  line-height: 1.7;
+  color: $ink;
+}
+
+/* ---------- Masthead ---------- */
+
+.masthead {
+  background: rgba(255, 255, 255, 0.96);
+  border-bottom: 1px solid $line;
+  box-shadow: none;
+}
+
+.masthead__inner-wrap { padding: 0.9em 1em; }
+
+.greedy-nav {
+  background: transparent;
+
+  a, a:visited {
+    color: $ink-soft;
+    font-family: $font-sans;
+    font-weight: 500;
+    font-size: 0.95rem;
+    &:hover { color: $accent; text-decoration: none; }
+  }
+
+  .masthead__menu-item--lg a {
+    font-family: $font-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: $ink;
+    padding-right: 1em;
+  }
+
+  .visible-links a:before { background: $accent; height: 2px; }
+
+  button { background: $ink; border-radius: 6px; }
+  .hidden-links { border-color: $line; border-radius: 8px; }
+}
+
+/* ---------- Sidebar / author card ---------- */
+
+.author__avatar img {
+  width: 160px;
+  height: 160px;
+  max-width: 160px;
+  object-fit: cover;
+  object-position: center 30%;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  box-shadow: 0 0 0 1px $line, 0 6px 18px rgba(28, 36, 51, 0.12);
+  padding: 0;
+}
+
+.author__name {
+  font-family: $font-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: $ink;
+  margin-top: 0.6em;
 }
 
 .author__bio {
   font-style: normal;
-  color: #555;
+  color: $muted;
+  font-size: 0.85rem;
+  line-height: 1.5;
 }
 
-.author__urls-wrapper a,
-.author__urls a {
-  color: $site-blue-light;
+.author__urls {
+  font-size: 0.85rem;
+  li { margin-bottom: 0.35em; }
+  a, a:visited { color: $ink-soft; }
+  a:hover { color: $accent; text-decoration: none; }
+  i, .ai { color: $accent; }
+}
 
+@media (max-width: 63.99em) {
+  .author__avatar img { width: 56px; height: 56px; border-width: 2px; }
+}
+
+/* ---------- Tags, pills, buttons ---------- */
+
+.tag {
+  display: inline-block;
+  font-family: $font-sans;
+  font-size: 0.76rem;
+  font-weight: 500;
+  line-height: 1.4;
+  padding: 0.2em 0.65em;
+  margin: 0 0.35em 0.35em 0;
+  border-radius: 999px;
+  background: $surface;
+  border: 1px solid $line;
+  color: $ink-soft;
+  white-space: nowrap;
+}
+
+.tag--accent {
+  background: $accent-soft;
+  border-color: transparent;
+  color: $accent-dark;
+}
+
+a.tag--link, a.tag--link:visited {
+  color: $ink-soft;
+  &:hover { border-color: $accent; color: $accent; text-decoration: none; }
+  i { font-size: 0.85em; margin-right: 0.2em; }
+}
+
+.tag-row { margin: 1.2em 0 0.4em; }
+
+.link-row { margin: 0.6em 0 0; }
+
+.btn-pill, .btn-pill:visited {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 0.4em 0.95em;
+  margin: 0 0.4em 0.5em 0;
+  border-radius: 999px;
+  border: 1px solid $line;
+  color: $ink;
+  background: #fff;
+  transition: border-color 0.15s, color 0.15s, box-shadow 0.15s;
+  i { margin-right: 0.3em; color: $accent; }
   &:hover {
-    color: $site-blue;
+    border-color: $accent;
+    color: $accent;
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(31, 79, 191, 0.12);
   }
 }
 
-/* Avatar — slightly larger and with a subtle border */
-.author__avatar img {
-  border-radius: 50%;
-  border: 3px solid $site-blue-pale;
-  max-width: 165px;
+/* ---------- Research cards (home) ---------- */
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin: 0.5em 0 1em;
 }
 
-/* Page/archive list items */
-.list__item .archive__item-title a {
-  color: $site-blue;
+@media (min-width: 48em) {
+  .cards { grid-template-columns: 1fr 1fr; }
+}
 
-  &:hover {
-    color: $site-blue-light;
-    text-decoration: underline;
+.card {
+  border: 1px solid $line;
+  border-radius: 12px;
+  padding: 1.15rem 1.25rem 0.4rem;
+  background: #fff;
+  border-top: 3px solid $accent;
+
+  p { font-size: 0.92rem; line-height: 1.6; color: $ink-soft; }
+}
+
+.page__content .card__title,
+.card__title {
+  font-size: 1.05rem;
+  line-height: 1.35;
+  margin: 0.2em 0 0.7em;
+  padding: 0;
+  border: 0;
+}
+
+.card__kicker {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $accent;
+}
+
+/* ---------- Timeline (home) ---------- */
+
+.page__content ul.timeline,
+ul.timeline {
+  list-style: none;
+  margin: 0.5em 0 1em;
+  padding: 0;
+  border-left: 2px solid $line;
+
+  li {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.15rem 1.25rem;
+    padding: 0 0 1.1em 1.4rem;
+    margin: 0;
+    line-height: 1.5;
+    font-size: 0.95rem;
+
+    &:before {
+      content: "";
+      position: absolute;
+      left: -7px;
+      top: 0.45em;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: #fff;
+      border: 2px solid $accent;
+    }
+
+    &:first-child:before { background: $accent; }
+    strong { color: $ink; font-weight: 600; }
   }
 }
 
-/* Publication venue text */
-.page__meta {
-  color: #666;
-  font-size: 0.85em;
+.timeline__date {
+  flex: 0 0 7.5rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: $muted;
+  font-variant-numeric: tabular-nums;
 }
 
-/* h3 in content */
-.page__content h3 {
-  color: $site-blue;
-  font-size: 1.1em;
-  margin-top: 1.5em;
+/* ---------- Publications ---------- */
+
+.pub-year { margin-top: 1.6em; }
+
+.archive .pub-year__label {
+  font-family: $font-sans;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: $muted;
+  margin: 0 0 0.6em;
+  padding-bottom: 0.35em;
 }
 
-/* Footer */
-.page__footer {
-  background-color: #263238;
-  color: #cfd8dc;
+.page__content ul.pub-list,
+.archive ul.pub-list,
+ul.pub-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
-  a {
-    color: #90CAF9;
+.pub {
+  margin: 0;
+  padding: 0.85em 0 0.9em;
+  border-bottom: 1px solid $line;
+  line-height: 1.5;
+  &:last-child { border-bottom: 0; }
+}
 
-    &:hover {
-      color: #fff;
+a.pub__title, a.pub__title:visited {
+  display: block;
+  font-family: $font-serif;
+  font-size: 1.06rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: $ink;
+  &:hover { color: $accent; text-decoration: none; }
+}
+
+.pub__authors {
+  font-size: 0.88rem;
+  color: $ink-soft;
+  margin-top: 0.3em;
+  sup { font-size: 0.7em; }
+}
+
+.pub__me { font-weight: 700; color: $ink; }
+
+.pub__venue {
+  font-size: 0.86rem;
+  color: $muted;
+  margin-top: 0.1em;
+  i { color: $ink-soft; }
+}
+
+.pub__links { margin-top: 0.5em; line-height: 1; }
+
+/* ---------- Talks ---------- */
+
+.page__content ul.talk-list,
+.archive ul.talk-list,
+ul.talk-list {
+  list-style: none;
+  margin: 0.5em 0 0;
+  padding: 0;
+}
+
+.talk {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0.9em 0;
+  border-bottom: 1px solid $line;
+  &:last-child { border-bottom: 0; }
+}
+
+.talk__date {
+  flex: 0 0 3.6rem;
+  text-align: center;
+  border-radius: 10px;
+  background: $surface;
+  border: 1px solid $line;
+  padding: 0.35em 0;
+  line-height: 1.2;
+}
+
+.talk__month {
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: $accent;
+}
+
+.talk__year {
+  display: block;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: $ink;
+}
+
+a.talk__title, a.talk__title:visited {
+  display: block;
+  font-family: $font-serif;
+  font-size: 1.04rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: $ink;
+  &:hover { color: $accent; text-decoration: none; }
+}
+
+.talk__venue {
+  font-size: 0.86rem;
+  color: $muted;
+  margin-top: 0.4em;
+  .tag { margin-bottom: 0; }
+}
+
+/* ---------- CV ---------- */
+
+.cv {
+  > ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+
+    > li {
+      margin-bottom: 1em;
+      > strong { color: $ink; font-weight: 600; }
+    }
+
+    ul {
+      list-style: none;
+      margin: 0.25em 0 0;
+      padding-left: 0;
+
+      li {
+        font-size: 0.92rem;
+        color: $ink-soft;
+        margin: 0.1em 0;
+        line-height: 1.5;
+      }
     }
   }
 
-  .page__footer-follow li {
-    color: #cfd8dc;
+  .cv-date {
+    float: right;
+    font-size: 0.85rem;
+    color: $muted;
+    font-variant-numeric: tabular-nums;
   }
 }
 
-/* Masthead — subtle dark top bar */
-.masthead {
-  background-color: #fff;
-  border-bottom: 2px solid $site-blue;
-
-  .site-title {
-    font-weight: 700;
-    color: $site-blue;
-    font-size: 1.1em;
-  }
+@media (max-width: 37.5em) {
+  .cv .cv-date { float: none; display: block; }
 }
 
-/* Archive items on publications/talks pages */
-.archive__item {
-  border-bottom: 1px solid #ECEFF1;
-  padding-bottom: 0.75em;
-  margin-bottom: 0.5em;
+/* ---------- Single publication / talk page ---------- */
+
+.page__content > p:first-child { margin-top: 0; }
+
+/* ---------- Footer ---------- */
+
+.page__footer {
+  background-color: $surface;
+  border-top: 1px solid $line;
+  color: $muted;
+  margin-top: 3em;
+
+  a, a:visited { color: $ink-soft; }
+  a:hover { color: $accent; }
+  .page__footer-follow li { color: $muted; }
+  .page__footer-copyright { font-size: 0.8rem; }
 }
 
-.archive__item:last-child {
-  border-bottom: none;
+/* MathJax CHTML can widen the page on phones */
+mjx-container, .MathJax_CHTML { max-width: 100%; overflow-x: auto; }
+
+/* Theme underlines every content link; keep underlines only for inline prose links */
+.page__content, .archive {
+  a.pub__title, a.talk__title, a.tag, a.btn-pill { text-decoration: none; }
+  a.pub__title:hover, a.talk__title:hover { text-decoration: none; }
+  h1, h2 { color: $ink; }
 }
 
-/* Subtle highlight on paper links */
-.archive__item a[href^="http"] {
-  color: $site-blue-light;
-  font-weight: 500;
+/* Page title on archive pages (Publications, Talks, CV) is an h1 inside .archive */
+.archive > h1.page__title {
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin: 0.2em 0 0.6em;
+  padding: 0;
+  border: 0;
 }
