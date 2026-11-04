@@ -84,6 +84,7 @@ redirect_from:
   font-size: 1.02em;
 }
 .edu-school { color: #333; font-weight: 600; }
+.edu-dates { color: #888; font-size: 0.85em; }
 .edu-detail { color: #666; font-size: 0.9em; margin-top: 0.3em; line-height: 1.5; }
 
 /* ===== Publication List ===== */
@@ -166,10 +167,31 @@ redirect_from:
   letter-spacing: 0.05em;
   margin-bottom: 0.8em;
 }
+
+/* ===== Award Items ===== */
+.award-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0.6em 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+.award-item:last-child { border-bottom: none; }
+.award-name { font-weight: 600; color: #333; }
+.award-org { font-size: 0.9em; color: #666; }
+.award-year { color: #1565C0; font-weight: 600; font-size: 0.9em; white-space: nowrap; margin-left: 1em; }
+
+/* ===== Service Items ===== */
+.service-item {
+  padding: 0.4em 0;
+  font-size: 0.95em;
+  color: #444;
+}
+.service-role { font-weight: 600; color: #333; }
 </style>
 
 <div class="intro-highlight">
-Zhilang Qiu, PhD, is a <strong>Postdoctoral Research Fellow</strong> in the <a href="https://www.mcleanhospital.org/">Laboratory for High-Field Imaging and Translational Neuroscience</a> and the Advanced MRI/MRS Core at <strong>McLean Hospital / Harvard Medical School</strong>. He develops advanced MRI and MR spectroscopy techniques to probe brain biology, physiology, structure, and function with high precision. His work focuses on pushing the limits of scan efficiency, sensitivity, and specificity through new modeling approaches, encoding strategies, and reconstruction methods. Dr. Qiu applies these innovations to advance the study of neuropsychiatric disorders, including Alzheimer's disease, schizophrenia, and depression, aiming to uncover hidden neurobiological processes that contribute to disease mechanisms, developmental trajectories, biomarker discovery, and treatment response.
+Zhilang Qiu, PhD, is a <strong>Postdoctoral Research Fellow</strong> in the <a href="https://www.mcleanhospital.org/">Division of Psychotic Disorders</a> and the McLean Imaging Center at <strong>McLean Hospital</strong>, and the Department of Psychiatry at <strong>Harvard Medical School</strong>. He develops advanced MRI and MR spectroscopy techniques to probe brain biology, physiology, structure, and function with high precision. His current research focuses on Glymphatic MRI, <sup>1</sup>H and <sup>31</sup>P MRSI, and translational MR in psychiatry. Dr. Qiu applies these innovations to advance the study of neuropsychiatric disorders, including Alzheimer's disease, schizophrenia, and depression, aiming to uncover hidden neurobiological processes that contribute to disease mechanisms, developmental trajectories, biomarker discovery, and treatment response.
 </div>
 
 <div class="profile-links">
@@ -187,26 +209,20 @@ Experience
 
   <div class="timeline-item current">
     <div class="timeline-title">Postdoctoral Research Fellow</div>
-    <div class="timeline-meta">McLean Hospital &amp; Harvard Medical School &middot; 2025 &ndash; Present</div>
-    <div class="timeline-desc">Development and translation of advanced multimodal neuroimaging techniques, including MRI and MR spectroscopy (MRS), to investigate neuropsychiatric disorders such as Alzheimer's disease, schizophrenia, and depression.</div>
+    <div class="timeline-meta">Division of Psychotic Disorders &amp; McLean Imaging Center, McLean Hospital<br>Department of Psychiatry, Harvard Medical School &middot; 03/2025 &ndash; Present</div>
+    <div class="timeline-desc">Research focus: Glymphatic MRI, <sup>1</sup>H and <sup>31</sup>P MRSI, and translational MR in psychiatry.</div>
   </div>
 
   <div class="timeline-item">
     <div class="timeline-title">Research Scientist</div>
-    <div class="timeline-meta">Case Western Reserve University &middot; 2023 &ndash; 2025</div>
-    <div class="timeline-desc">Research centered on MR Fingerprinting (MRF), quantitative MRI, and diffusion MRI. Advanced quantitative and multiparametric MRI methodologies.</div>
+    <div class="timeline-meta">Case Western Reserve University &middot; 12/2023 &ndash; 03/2025</div>
+    <div class="timeline-desc">Research focus: MR fingerprinting, quantitative MRI, and diffusion MRI.</div>
   </div>
 
   <div class="timeline-item">
-    <div class="timeline-title">Postdoctoral Researcher</div>
-    <div class="timeline-meta">Case Western Reserve University &middot; 2021 &ndash; 2023</div>
-    <div class="timeline-desc">Postdoctoral training focused on advancing quantitative and multiparametric MRI methodologies, including MR Fingerprinting and diffusion MRI.</div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-title">Doctoral Researcher</div>
-    <div class="timeline-meta">Shenzhen Institutes of Advanced Technology (SIAT), Chinese Academy of Sciences</div>
-    <div class="timeline-desc">Research in biomedical engineering and MRI, with a focus on improving scan efficiency, sensitivity, and specificity through innovative modeling, encoding, and reconstruction approaches.</div>
+    <div class="timeline-title">Postdoctoral Scholar</div>
+    <div class="timeline-meta">Case Western Reserve University &middot; 10/2021 &ndash; 10/2023</div>
+    <div class="timeline-desc">Research focus: MR fingerprinting, quantitative MRI, and diffusion MRI.</div>
   </div>
 
 </div>
@@ -215,40 +231,54 @@ Education
 ======
 
 <div class="edu-card">
-  <div class="edu-degree">Ph.D. in Pattern Recognition and Intelligent Systems</div>
-  <div class="edu-school">University of Chinese Academy of Sciences</div>
-  <div class="edu-detail">Doctoral research conducted at Shenzhen Institutes of Advanced Technology (SIAT), Chinese Academy of Sciences. Developed advanced methodologies in biomedical engineering and magnetic resonance imaging.</div>
+  <div class="edu-degree">Doctor of Philosophy</div>
+  <div class="edu-school">University of Chinese Academy of Sciences (Beijing, China)</div>
+  <div class="edu-dates">09/2015 &ndash; 06/2021</div>
+  <div class="edu-detail">Major: Pattern Recognition and Intelligent System<br>Dissertation: Fast Three-Dimensional Magnetic Resonance Imaging<br>Research conducted at Shenzhen Institutes of Advanced Technology (SIAT), Chinese Academy of Sciences.</div>
 </div>
 
 <div class="edu-card">
-  <div class="edu-degree">B.Eng. in Biomedical Engineering</div>
-  <div class="edu-school">Southern Medical University</div>
-  <div class="edu-detail">Foundation in biomedical signal processing, medical imaging, and engineering principles that inform interdisciplinary research in neuroimaging.</div>
+  <div class="edu-degree">Bachelor of Engineering</div>
+  <div class="edu-school">Southern Medical University (Guangzhou, China)</div>
+  <div class="edu-dates">09/2011 &ndash; 06/2015</div>
+  <div class="edu-detail">Major: Biomedical Engineering<br>Ranked 2nd out of 330 students in Biomedical Engineering.</div>
 </div>
 
 Selected Publications
 ======
 
-<p class="section-subtitle">First-author &amp; co-first-author journal articles</p>
+<p class="section-subtitle">First-author &amp; co-first-author journal articles (# co-first)</p>
 
 <ul class="pub-list">
 
 <li class="pub-item">
-  <div class="pub-title">Self-calibrated subspace reconstruction for multidimensional MR fingerprinting for simultaneous relaxation and diffusion quantification</div>
-  <div class="pub-authors"><span class="me">Z Qiu</span>, S Hu, W Zhao, K Sakaie, JEP Sun, MA Griswold, DK Jones, D Ma</div>
-  <div class="pub-venue">Magnetic Resonance in Medicine, 2024; 91(5): 1978&ndash;1993 <span class="pub-badge">First Author</span></div>
+  <div class="pub-title">Self-calibrated Subspace Reconstruction for Multidimensional MR Fingerprinting for Simultaneous Relaxation and Diffusion Quantification</div>
+  <div class="pub-authors"><span class="me">Qiu Z</span>, Hu S, Zhao W, Sakaie K, Sun JE, Griswold MA, Jones DK, Ma D</div>
+  <div class="pub-venue">Magnetic Resonance in Medicine, 2024; 91: 1978&ndash;93 <span class="pub-badge">First Author</span></div>
 </li>
 
 <li class="pub-item">
-  <div class="pub-title">Highly accelerated parallel MRI using wave encoding and virtual conjugate coils</div>
-  <div class="pub-authors"><span class="me">Z Qiu</span>, S Jia, S Su, Y Zhu, X Liu, H Zheng, D Liang, H Wang</div>
-  <div class="pub-venue">Magnetic Resonance in Medicine, 2021 <span class="pub-badge">First Author</span></div>
+  <div class="pub-title">Highly Accelerated Parallel MRI Using Wave Encoding and Virtual Conjugate Coils</div>
+  <div class="pub-authors"><span class="me">Qiu Z</span>, Jia S, Su S, Zhu Y, Liu X, Zheng H, Liang D, Wang H</div>
+  <div class="pub-venue">Magnetic Resonance in Medicine, 2021; 86: 1345&ndash;1359 <span class="pub-badge">First Author</span></div>
 </li>
 
 <li class="pub-item">
-  <div class="pub-title">Aliasing-free reduced field-of-view parallel imaging</div>
-  <div class="pub-authors">S Jia, <span class="me">Z Qiu</span>, L Zhang, H Wang, G Yang, X Liu, D Liang, H Zheng</div>
-  <div class="pub-venue">Magnetic Resonance in Medicine, 2022 <span class="pub-badge">Co-first Author</span></div>
+  <div class="pub-title">Aliasing-free Reduced Field-of-view Parallel Imaging</div>
+  <div class="pub-authors">Jia S#, <span class="me">Qiu Z</span>#, Zhang L, Wang H, Yang G, Liu X, Liang D, Zheng H</div>
+  <div class="pub-venue">Magnetic Resonance in Medicine, 2022; 87: 1574&ndash;1582 <span class="pub-badge">Co-first Author</span></div>
+</li>
+
+<li class="pub-item">
+  <div class="pub-title">Parameter Optimization Framework on Wave Gradients of Wave-CAIPI Imaging</div>
+  <div class="pub-authors">Wang H#, <span class="me">Qiu Z</span>#, Su S, Jia S, Li Y, Zheng H, Liang D</div>
+  <div class="pub-venue">Magnetic Resonance in Medicine, 2020; 83: 1659&ndash;1672 <span class="pub-badge">Co-first Author</span></div>
+</li>
+
+<li class="pub-item">
+  <div class="pub-title">Accelerated 3D bSSFP Using a Modified Wave-CAIPI Technique with Truncated Wave Gradients</div>
+  <div class="pub-authors">Su S#, <span class="me">Qiu Z</span>#, Luo C, Shi C, Wan L, Zhu Y, Li Y, Liu X, Zheng H, Liang D, Wang H</div>
+  <div class="pub-venue">IEEE Transactions on Medical Imaging, 2021; 40: 48&ndash;58 <span class="pub-badge">Co-first Author</span></div>
 </li>
 
 </ul>
@@ -258,40 +288,82 @@ Selected Publications
 <ul class="pub-list">
 
 <li class="pub-item">
-  <div class="pub-title">Deep Learning&ndash;Based Structural Brain Age Estimation in Bipolar Disorder and Schizophrenia: A Single-Site Pilot Study</div>
-  <div class="pub-authors">A Weerasekera, S Zhou, C Wang, <span class="me">Z Qiu</span>, et al.</div>
+  <div class="pub-title">Deep Learning&ndash;Based Structural Brain Age Estimation in Bipolar Disorder and Schizophrenia</div>
+  <div class="pub-authors">Weerasekera A, Zhou S, Wang C, <span class="me">Qiu Z</span>, Stein A, et al.</div>
   <div class="pub-venue">Human Brain Mapping, 2026; 47(3): e70479</div>
 </li>
 
 <li class="pub-item">
-  <div class="pub-title">Assessing repeatability and confounding factors of magnetic resonance fingerprinting (MRF) for quantitative liver imaging</div>
-  <div class="pub-authors">K Stephans, ..., <span class="me">Z Qiu</span>, et al.</div>
-  <div class="pub-venue">Medical Physics, 2025</div>
+  <div class="pub-title">Assessing Repeatability and Confounding Factors of MRF for Quantitative Liver Imaging</div>
+  <div class="pub-authors">Lu L, Stephans K, <span class="me">Qiu Z</span>, Tirumani S, Chen Y</div>
+  <div class="pub-venue">Medical Physics, 2025; 52(7): e17932</div>
 </li>
 
 <li class="pub-item">
-  <div class="pub-title">Efficient pulse sequence design framework for high-dimensional MR fingerprinting scans using systematic error index</div>
-  <div class="pub-authors">S Hu, <span class="me">Z Qiu</span>, RJ Adams, W Zhao, et al.</div>
-  <div class="pub-venue">Magnetic Resonance in Medicine, 2024</div>
-</li>
-
-<li class="pub-item">
-  <div class="pub-title">High resolution single-shot myocardial imaging using bSSFP with wave encoding</div>
-  <div class="pub-authors">S Jia, <span class="me">Z Qiu</span>, et al.</div>
-  <div class="pub-venue">Medical Physics, 2023</div>
-</li>
-
-<li class="pub-item">
-  <div class="pub-title">MR Fingerprinting with b-Tensor Encoding for Simultaneous Quantification of Relaxation and Diffusion in a Single Scan</div>
-  <div class="pub-authors">M Afzali, ..., <span class="me">Z Qiu</span>, et al.</div>
-  <div class="pub-venue">Magnetic Resonance in Medicine, 2022</div>
+  <div class="pub-title">Efficient Pulse Sequence Design Framework for High-Dimensional MR Fingerprinting Scans</div>
+  <div class="pub-authors">Hu S, <span class="me">Qiu Z</span>, Adams RJ, Zhao W, Boyacioglu R, Calvetti D, McGivney D, Ma D</div>
+  <div class="pub-venue">Magnetic Resonance in Medicine, 2024; 92: 1600&ndash;1616</div>
 </li>
 
 </ul>
 
 <p style="text-align: center; margin-top: 0.5em;">
-<a href="https://scholar.google.com/citations?user=tmgnYv4AAAAJ" style="color: #1565C0; font-weight: 600;">View full publication list on Google Scholar &rarr;</a>
+<a href="https://scholar.google.com/citations?user=tmgnYv4AAAAJ" style="color: #1565C0; font-weight: 600;">View all 14 journal articles &amp; 26 conference papers on Google Scholar &rarr;</a>
 </p>
+
+Selected Presentations
+------
+
+<ul class="pub-list">
+
+<li class="pub-item">
+  <div class="pub-title">Glymphatic Dysfunction and Lifespan Trajectories Across Neuropsychiatric Disorders Revealed by DTI-ALPS</div>
+  <div class="pub-venue">ISMRM &amp; ISMRT Annual Meeting, Cape Town, South Africa, 2026 <span class="pub-badge">Power Pitch</span></div>
+</li>
+
+<li class="pub-item">
+  <div class="pub-title">Modeling Phase Errors for Robust and Efficient Multidimensional MR Fingerprinting for Simultaneous Relaxation and Diffusion Mapping</div>
+  <div class="pub-venue">ISMRM &amp; ISMRT Annual Meeting, Singapore, 2024 <span class="pub-badge">Oral Presentation</span></div>
+</li>
+
+<li class="pub-item">
+  <div class="pub-title">Simultaneous Quantification of Relaxation and Diffusion Using MR Fingerprinting with Self-Calibrated Subspace Reconstruction</div>
+  <div class="pub-venue">ISMRM &amp; ISMRT Annual Meeting, Toronto, Canada, 2023 <span class="pub-badge">Oral Presentation</span></div>
+</li>
+
+</ul>
+
+Awards
+------
+
+<div>
+
+<div class="award-item">
+  <div><span class="award-name">Second Place, MR in Psychiatry Study Group Award</span><br><span class="award-org">MR in Psychiatry Study Group, ISMRM</span></div>
+  <div class="award-year">2026</div>
+</div>
+
+<div class="award-item">
+  <div><span class="award-name">Trainee Educational Stipend</span><br><span class="award-org">International Society for Magnetic Resonance in Medicine (ISMRM)</span></div>
+  <div class="award-year">2018, 2019, 2020</div>
+</div>
+
+<div class="award-item">
+  <div><span class="award-name">President's Scholarship Special Prize</span><br><span class="award-org">Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences</span></div>
+  <div class="award-year">2020</div>
+</div>
+
+<div class="award-item">
+  <div><span class="award-name">Director's Innovation Fund Student Award</span><br><span class="award-org">Institute of Biomedical and Health Engineering, SIAT, Chinese Academy of Sciences</span></div>
+  <div class="award-year">2020</div>
+</div>
+
+<div class="award-item">
+  <div><span class="award-name">Excellent Student Award</span><br><span class="award-org">University of Chinese Academy of Sciences</span></div>
+  <div class="award-year">2019</div>
+</div>
+
+</div>
 
 Current Research Directions
 ------
@@ -302,8 +374,8 @@ Current Research Directions
 </div>
 
 <div class="research-card">
-<h4>&#xB3;&#xB9;P Magnetization Transfer MR Spectroscopic Imaging for Cerebral Energy Metabolism</h4>
-<p>Developing advanced &#xB3;&#xB9;P MR spectroscopic imaging (MRSI) techniques to noninvasively assess cerebral energy metabolism and associated metabolic exchange processes. By integrating magnetization transfer strategies with optimized acquisition, modeling, and reconstruction methods, this work aims to improve sensitivity, spatial resolution, and quantitative accuracy in multinuclear MR spectroscopy.</p>
+<h4><sup>31</sup>P Magnetization Transfer MR Spectroscopic Imaging for Cerebral Energy Metabolism</h4>
+<p>Developing advanced <sup>31</sup>P MR spectroscopic imaging (MRSI) techniques to noninvasively assess cerebral energy metabolism and associated metabolic exchange processes. By integrating magnetization transfer strategies with optimized acquisition, modeling, and reconstruction methods, this work aims to improve sensitivity, spatial resolution, and quantitative accuracy in multinuclear MR spectroscopy.</p>
 </div>
 
 Past Research Directions
@@ -318,3 +390,10 @@ Past Research Directions
 <h4>Multidimensional MR Fingerprinting for Simultaneous Relaxation and Diffusion Quantification</h4>
 <p>Advanced multidimensional MR fingerprinting (MRF) methodologies to enable simultaneous and robust quantification of relaxation and diffusion parameters within a single acquisition. Developed explicit phase error modeling approaches within the MRF framework to improve robustness against motion-induced artifacts, and self-calibrated subspace reconstruction methods integrating low-rank modeling, matrix completion, and incoherent sampling to enable accurate joint estimation of T1, T2, and diffusion parameters.</p>
 </div>
+
+Service
+------
+
+<div class="service-item"><span class="service-role">Conference Reviewer:</span> ISMRM &amp; ISMRT Annual Meeting &amp; Exhibition, 2023, 2024, 2026</div>
+<div class="service-item"><span class="service-role">Ad hoc Journal Reviewer:</span> Frontiers in Neurology (2026), Medical Physics (2025)</div>
+<div class="service-item"><span class="service-role">Member:</span> International Society of Magnetic Resonance in Medicine (ISMRM), 2018 &ndash; Present</div>

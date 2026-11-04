@@ -1,10 +1,10 @@
 ---
-title: "Self-calibrated subspace reconstruction for multidimensional MR fingerprinting for simultaneous relaxation and diffusion quantification"
+title: "Self-calibrated Subspace Reconstruction for Multidimensional MR Fingerprinting for Simultaneous Relaxation and Diffusion Quantification"
 collection: publications
 permalink: /publication/2024-mdmrf-subspace
 excerpt: 'A self-calibrated subspace reconstruction method for multidimensional MR fingerprinting enabling simultaneous T1, T2, and ADC quantification.'
 date: 2024-05-01
 venue: 'Magnetic Resonance in Medicine'
 paperurl: 'https://doi.org/10.1002/mrm.29969'
-citation: '<b>Z Qiu</b>, S Hu, W Zhao, K Sakaie, JEP Sun, MA Griswold, DK Jones, D Ma. &quot;Self-calibrated subspace reconstruction for multidimensional MR fingerprinting for simultaneous relaxation and diffusion quantification.&quot; <i>Magnetic Resonance in Medicine</i>, 2024; 91(5): 1978-1993.'
+citation: '<b>Qiu Z</b>, Hu S, Zhao W, Sakaie K, Sun JE, Griswold MA, Jones DK, Ma D. &quot;Self-calibrated Subspace Reconstruction for Multidimensional MR Fingerprinting for Simultaneous Relaxation and Diffusion Quantification.&quot; <i>Magn Reson Med</i>. 2024; 91:1978-93.'
 ---
