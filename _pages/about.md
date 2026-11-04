@@ -305,6 +305,42 @@ Selected Publications
   <div class="pub-venue">Magnetic Resonance in Medicine, 2024; 92: 1600&ndash;1616</div>
 </li>
 
+<li class="pub-item">
+  <div class="pub-title">K-UNN: k-space interpolation with untrained neural network</div>
+  <div class="pub-authors">Cui ZX, Jia S, Cao C, Zhu Q, Liu C, <span class="me">Qiu Z</span>, Liu Y, Cheng J, Wang H, Zhu Y, Liang D</div>
+  <div class="pub-venue">Medical Image Analysis, 2023; 88:102877</div>
+</li>
+
+<li class="pub-item">
+  <div class="pub-title">High resolution single-shot myocardial imaging using bSSFP with wave encoding</div>
+  <div class="pub-authors">Zhu Y, Wang C, Su S, <span class="me">Qiu Z</span>, Yan Z, Liang D, Wang Y, Wang H</div>
+  <div class="pub-venue">Medical Physics, 2023; 50(11):7039-48</div>
+</li>
+
+<li class="pub-item">
+  <div class="pub-title">Rapid variable flip angle positive susceptibility contrast imaging for clinical metal seeds</div>
+  <div class="pub-authors">Shi C, <span class="me">Qiu Z</span>, Liu C, Chen H, Ye Y, Zhu Y, Liu X, Zheng H, Liang D, Wang H</div>
+  <div class="pub-venue">Journal Magn Reson, 2022; 340:107232</div>
+</li>
+
+<li class="pub-item">
+  <div class="pub-title">Deep low-rank plus sparse network for dynamic MR imaging</div>
+  <div class="pub-authors">Huang W, Ke Z, Cui ZX, Cheng J, <span class="me">Qiu Z</span>, Jia S, Ying L, Zhu Y, Liang D</div>
+  <div class="pub-venue">Medical Image Analysis, 2021; 73:102190</div>
+</li>
+
+<li class="pub-item">
+  <div class="pub-title">A 4-minute solution for submillimeter whole-brain T1&rho; quantification</div>
+  <div class="pub-authors">Zhu Y, Liu Y, Ying L, <span class="me">Qiu Z</span>, Liu Q, Jia S, Wang H, Peng X, Liu X, Zheng H, Liang D</div>
+  <div class="pub-venue">Magn Reson Med, 2021; 85:3299-3307</div>
+</li>
+
+<li class="pub-item">
+  <div class="pub-title">Robust MR image super-resolution reconstruction with cross-modal edge-preserving regularization</div>
+  <div class="pub-authors">Zhu Q, Ren Y, <span class="me">Qiu Z</span>, Wang W</div>
+  <div class="pub-venue">Int J Imaging Syst Technol, 2019; 29:491-500</div>
+</li>
+
 </ul>
 
 <p style="text-align: center; margin-top: 0.5em;">
