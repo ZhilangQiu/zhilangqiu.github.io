@@ -9,62 +9,62 @@ redirect_from:
 
 {% include base_path %}
 
+<div class="cv" markdown="1">
+
 Education
 ======
-* **Doctor of Philosophy** (09/2015 – 06/2021)
+* **Doctor of Philosophy** <span class="cv-date">09/2015 – 06/2021</span>
   * University of Chinese Academy of Sciences, Beijing, China
   * Major: Pattern Recognition and Intelligent System
   * Dissertation: *Fast Three-Dimensional Magnetic Resonance Imaging*
   * Research conducted at the Paul C. Lauterbur Research Centre for Biomedical Imaging, Shenzhen Institutes of Advanced Technology (SIAT), Chinese Academy of Sciences
 
-* **Bachelor of Engineering** (09/2011 – 06/2015)
+* **Bachelor of Engineering** <span class="cv-date">09/2011 – 06/2015</span>
   * Southern Medical University, Guangzhou, China
   * Major: Biomedical Engineering
   * Ranked 2nd out of 330 students in Biomedical Engineering
 
 Experience
 ======
-* **Postdoctoral Research Fellow** (03/2025 – Present)
+* **Postdoctoral Research Fellow** <span class="cv-date">03/2025 – Present</span>
   * Division of Psychotic Disorders, McLean Hospital
   * McLean Imaging Center, McLean Hospital
   * Department of Psychiatry, Harvard Medical School, Boston, MA, USA
   * Research focus: Glymphatic MRI, ¹H and ³¹P MRSI, and translational MR in psychiatry
 
-* **Research Scientist** (12/2023 – 03/2025)
+* **Research Scientist** <span class="cv-date">12/2023 – 03/2025</span>
   * Department of Biomedical Engineering, Case Western Reserve University, Cleveland, OH, USA
   * Research focus: MR fingerprinting, quantitative MRI, and diffusion MRI
 
-* **Postdoctoral Scholar** (10/2021 – 10/2023)
+* **Postdoctoral Scholar** <span class="cv-date">10/2021 – 10/2023</span>
   * Department of Biomedical Engineering, Case Western Reserve University, Cleveland, OH, USA
   * Research focus: MR fingerprinting, quantitative MRI, and diffusion MRI
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+{% assign pubs = site.publications | sort: "date" | reverse %}
+<ul class="pub-list">{% for post in pubs %}{% include pub-entry.html %}{% endfor %}</ul>
 
 Talks & Presentations
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
+{% assign talks = site.talks | sort: "date" | reverse %}
+<ul class="talk-list">{% for post in talks %}{% include talk-entry.html %}{% endfor %}</ul>
 
 Awards & Honors
 ======
-* **Second Place, MR in Psychiatry Study Group Award** (2026)
+* **Second Place, MR in Psychiatry Study Group Award** <span class="cv-date">2026</span>
   * MR in Psychiatry Study Group, ISMRM
 
-* **Trainee Educational Stipend** (2018, 2019, 2020)
+* **Trainee Educational Stipend** <span class="cv-date">2018, 2019, 2020</span>
   * International Society for Magnetic Resonance in Medicine (ISMRM)
 
-* **President's Scholarship Special Prize** (2020)
+* **President's Scholarship Special Prize** <span class="cv-date">2020</span>
   * Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences
 
-* **Director's Innovation Fund Student Award** (2020)
+* **Director's Innovation Fund Student Award** <span class="cv-date">2020</span>
   * Institute of Biomedical and Health Engineering, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences
 
-* **Excellent Student Award** (2019)
+* **Excellent Student Award** <span class="cv-date">2019</span>
   * University of Chinese Academy of Sciences
 
 Service
@@ -75,3 +75,5 @@ Service
 Memberships
 ======
 * International Society for Magnetic Resonance in Medicine (ISMRM), Trainee Member (2018 – Present)
+
+</div>

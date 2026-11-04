@@ -8,45 +8,93 @@ redirect_from:
   - /about.html
 ---
 
-Zhilang Qiu, PhD, is a Postdoctoral Research Fellow in the Laboratory for High-Field Imaging and Translational Neuroscience and the Advanced MRI/MRS Core, at McLean Hospital/Harvard Medical School. Trained in biomedical engineering and magnetic resonance imaging, Dr. Qiu develops advanced MRI and MR spectroscopy techniques to probe brain biology, physiology, structure, and function with high precision. His work focuses on pushing the limits of scan efficiency, sensitivity, and specificity through new modeling approaches, encoding strategies, and reconstruction methods. Dr. Qiu applies these methodological innovations to advance the study of neuropsychiatric disorders, including Alzheimer’s disease, schizophrenia, and depression, aiming to uncover hidden neurobiological processes that contribute to disease mechanisms, developmental trajectories, biomarker discovery, and treatment response. 
-For more academic-social details, please visit [LinkedIn](https://www.linkedin.com/in/zhilang-qiu-b73965134) homepage. For more publication details, please visit my [ResearchGate](https://researchgate.net/profile/Zhilang-Qiu) or [Google Scholar](https://scholar.google.com/citations?user=tmgnYv4AAAAJ) homepage.
+{% include base_path %}
 
-Experience
-======
-I am currently a Postdoctoral Research Fellow at McLean Hospital and a Research Fellow in the Department of Psychiatry at Harvard Medical School. My research focuses on the development and translation of advanced multimodal neuroimaging techniques, including MRI and MR spectroscopy (MRS), to investigate neuropsychiatric disorders such as Alzheimer’s disease, schizophrenia, and depression.
+<p class="page__lead">
+Zhilang Qiu, PhD, is a Postdoctoral Research Fellow in the Laboratory for High-Field Imaging and Translational Neuroscience and the Advanced MRI/MRS Core at McLean Hospital / Harvard Medical School. Trained in biomedical engineering and magnetic resonance imaging, he develops advanced MRI and MR spectroscopy techniques to probe brain biology, physiology, structure, and function with high precision.
+</p>
 
-Prior to this, I worked as a Research Scientist at Case Western Reserve University, where my work centered on MR Fingerprinting (MRF), quantitative MRI, and diffusion MRI. I also completed my postdoctoral training at Case Western Reserve University, continuing to advance quantitative and multiparametric MRI methodologies.
+His work focuses on pushing the limits of scan efficiency, sensitivity, and specificity through new modeling approaches, encoding strategies, and reconstruction methods. He applies these methodological innovations to the study of neuropsychiatric disorders, including Alzheimer's disease, schizophrenia, and depression, aiming to uncover hidden neurobiological processes that contribute to disease mechanisms, developmental trajectories, biomarker discovery, and treatment response.
 
-I received my doctoral training at the Shenzhen Institutes of Advanced Technology (SIAT), Chinese Academy of Sciences, as part of the PhD program at the University of Chinese Academy of Sciences. My research background spans biomedical engineering and magnetic resonance imaging, with a sustained focus on improving scan efficiency, sensitivity, and specificity through innovative modeling, encoding, and reconstruction approache.
+<div class="tag-row">
+  <span class="tag">Glymphatic MRI</span>
+  <span class="tag">³¹P MRSI</span>
+  <span class="tag">MR Fingerprinting</span>
+  <span class="tag">Wave-CAIPI &amp; Parallel Imaging</span>
+  <span class="tag">Quantitative &amp; Diffusion MRI</span>
+  <span class="tag">Neuropsychiatric Disorders</span>
+</div>
 
-Education
-======
-I received my PhD in Pattern Recognition and Intelligent Systems from the University of Chinese Academy of Sciences. My doctoral research was conducted at the Shenzhen Institutes of Advanced Technology (SIAT), Chinese Academy of Sciences, where I developed advanced methodologies in biomedical engineering and magnetic resonance imaging.
+<p class="link-row">
+  <a class="btn-pill" href="{{ base_path }}/cv/"><i class="fas fa-file-alt" aria-hidden="true"></i> CV</a>
+  <a class="btn-pill" href="{{ site.author.googlescholar }}"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a>
+  <a class="btn-pill" href="{{ site.author.researchgate }}"><i class="ai ai-researchgate" aria-hidden="true"></i> ResearchGate</a>
+  <a class="btn-pill" href="https://www.linkedin.com/in/{{ site.author.linkedin }}"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+  <a class="btn-pill" href="mailto:{{ site.author.email }}"><i class="fas fa-envelope" aria-hidden="true"></i> Email</a>
+</p>
 
-I obtained my Bachelor of Engineering degree in Biomedical Engineering from Southern Medical University. My undergraduate training provided a strong foundation in biomedical signal processing, medical imaging, and engineering principles that continue to inform my interdisciplinary research in neuroimaging.
+## Current Research
 
-Current Research Directions: 
-------
-**Direction 1: Glymphatic MRI for Noninvasive Measurement of Glymphatic Function in Neuropsychiatric Disorders**
-One of my current research focuses on developing advanced MRI techniques to noninvasively probe the glymphatic system and its role in brain physiology and pathology. By leveraging innovative acquisition strategies, quantitative modeling, and robust reconstruction methods, I aim to improve sensitivity and specificity for imaging fluid transport and clearance pathways in the brain.
+<div class="cards">
+  <div class="card">
+    <div class="card__kicker">Direction 1</div>
+    <h3 class="card__title">Glymphatic MRI for noninvasive measurement of glymphatic function in neuropsychiatric disorders</h3>
+    <p>Developing advanced MRI techniques to noninvasively probe the glymphatic system and its role in brain physiology and pathology. By leveraging innovative acquisition strategies, quantitative modeling, and robust reconstruction methods, I aim to improve sensitivity and specificity for imaging fluid transport and clearance pathways in the brain.</p>
+    <p>This work seeks to push the limits of scan efficiency and quantitative accuracy, enabling reliable characterization of glymphatic function in vivo, with application to neuropsychiatric and neurodegenerative disorders: disease mechanisms, progression, and treatment response.</p>
+  </div>
+  <div class="card">
+    <div class="card__kicker">Direction 2</div>
+    <h3 class="card__title">³¹P magnetization transfer MR spectroscopic imaging for cerebral energy metabolism</h3>
+    <p>Developing advanced ³¹P MR spectroscopic imaging (MRSI) techniques to noninvasively assess cerebral energy metabolism and associated metabolic exchange processes. By integrating magnetization transfer strategies with optimized acquisition, modeling, and reconstruction methods, I aim to improve sensitivity, spatial resolution, and quantitative accuracy in multinuclear MR spectroscopy.</p>
+  </div>
+</div>
 
-This work seeks to push the limits of scan efficiency and quantitative accuracy, enabling reliable characterization of glymphatic function in vivo. These methodological advances are applied to the study of neuropsychiatric and neurodegenerative disorders, with the goal of uncovering previously inaccessible physiological processes related to disease mechanisms, progression, and treatment response.
+## Previous Research
 
-**Direction 2: ³¹P Magnetization Transfer MR Spectroscopic Imaging for Cerebral Energy Metabolism**
-Another one of my current research focuses on developing advanced ³¹P MR spectroscopic imaging (MRSI) techniques to noninvasively assess cerebral energy metabolism and associated metabolic exchange processes. By integrating magnetization transfer strategies with optimized acquisition, modeling, and reconstruction methods, I aim to improve sensitivity, spatial resolution, and quantitative accuracy in multinuclear MR spectroscopy.
+<div class="cards">
+  <div class="card">
+    <div class="card__kicker">SIAT, Chinese Academy of Sciences</div>
+    <h3 class="card__title">Advanced acquisition and reconstruction for fast 3D parallel MRI</h3>
+    <p>Fast, high-resolution 3D imaging without compromising image quality, centered on integrating wave encoding with parallel imaging and new reconstruction frameworks to improve conditioning under highly undersampled acquisitions.</p>
+    <p>Contributions include multiple wave-encoded imaging techniques (Wave-CAIPI-based methods, wave encoding with virtual conjugate coils, and aliasing-free reduced field-of-view parallel imaging) spanning Cartesian and non-Cartesian schemes, with theoretical modeling, parameter optimization, and practical implementation.</p>
+  </div>
+  <div class="card">
+    <div class="card__kicker">Case Western Reserve University</div>
+    <h3 class="card__title">Multidimensional MR fingerprinting for simultaneous relaxation and diffusion quantification</h3>
+    <p>Integrating diffusion encoding into the MRF framework to jointly estimate T1, T2, and diffusion in a single acquisition. Rather than suppressing motion-induced phase errors in SSFP-based diffusion with hardware-intensive or SNR-costly strategies, I model them explicitly within the MRF signal model.</p>
+    <p>In parallel, I developed self-calibrated subspace reconstruction combining low-rank modeling, matrix completion, and incoherent sampling to handle severe undersampling while capturing phase variations.</p>
+  </div>
+</div>
 
-Research Directions
-------
-**Direction 1: Advanced Acquisition and Reconstruction Methods for for Fast 3D Parallel MRI**
-One of my past research focused on developing advanced MRI acquisition and reconstruction strategies to enable fast, high-resolution 3D imaging without compromising image quality. A central theme of this work is the integration of wave encoding with parallel imaging and innovative reconstruction frameworks to improve conditioning under highly undersampled acquisitions.
+## Experience &amp; Education
 
-I have contributed to the development of multiple wave-encoded imaging techniques, including Wave-CAIPI–based methods and reduced field-of-view parallel imaging, addressing key challenges such as aliasing artifacts, reconstruction burden, and workflow efficiency. These approaches span both Cartesian and non-Cartesian acquisition schemes and incorporate theoretical modeling, parameter optimization, and practical implementation considerations.
+<ul class="timeline">
+  <li>
+    <span class="timeline__date">2025 &ndash; now</span>
+    <div><strong>Postdoctoral Research Fellow</strong><br>McLean Hospital &middot; Department of Psychiatry, Harvard Medical School</div>
+  </li>
+  <li>
+    <span class="timeline__date">2023 &ndash; 2025</span>
+    <div><strong>Research Scientist</strong><br>Department of Biomedical Engineering, Case Western Reserve University</div>
+  </li>
+  <li>
+    <span class="timeline__date">2021 &ndash; 2023</span>
+    <div><strong>Postdoctoral Scholar</strong><br>Department of Biomedical Engineering, Case Western Reserve University</div>
+  </li>
+  <li>
+    <span class="timeline__date">2015 &ndash; 2021</span>
+    <div><strong>PhD, Pattern Recognition and Intelligent Systems</strong><br>University of Chinese Academy of Sciences &middot; research at SIAT, Shenzhen</div>
+  </li>
+  <li>
+    <span class="timeline__date">2011 &ndash; 2015</span>
+    <div><strong>BEng, Biomedical Engineering</strong><br>Southern Medical University, Guangzhou</div>
+  </li>
+</ul>
 
-My work has demonstrated that combining advanced acquisition strategies (e.g., wave encoding and virtual conjugate coils) with tailored reconstruction algorithms can substantially improve acceleration performance in 3D MRI, particularly in high-resolution and high-bandwidth imaging regimes. Collectively, these contributions aim to push the limits of scan efficiency while maintaining robustness and image fidelity, providing a foundation for fast 3D MRI in both research and clinical settings. 
+## Recent Publications
 
-**Direction 2: Multidimensional MR Fingerprinting for Simultaneous Relaxation and Diffusion Quantification**
-My research focuses on advancing multidimensional MR fingerprinting (MRF) methodologies to enable simultaneous and robust quantification of relaxation and diffusion parameters within a single acquisition. By integrating diffusion encoding into the flexible MRF framework, this work aims to enhance sensitivity and specificity for tissue microstructure characterization while maintaining high scan efficiency.
-
-A key challenge in multidimensional MRF, particularly for SSFP-based diffusion imaging, is its high sensitivity to motion-induced phase errors, which can severely degrade signal coherence and quantification accuracy. Rather than suppressing phase errors through hardware-intensive or SNR-compromising strategies, I develop explicit phase error modeling approaches within the MRF framework to improve robustness and estimation fidelity.
-
-In parallel, I have developed self-calibrated subspace reconstruction methods that integrate low-rank modeling, matrix completion, and incoherent sampling strategies to address severe undersampling in multidimensional MRF. These approaches enable accurate joint estimation of T1, T2, and diffusion parameters while reducing aliasing artifacts and capturing phase variations. Collectively, this research establishes a principled framework for efficient, multidimensional quantitative MRI that combines advanced modeling with practical reconstruction strategies.
+{% assign pubs = site.publications | sort: "date" | reverse %}
+<ul class="pub-list">
+  {% for post in pubs limit: 5 %}{% include pub-entry.html %}{% endfor %}
+</ul>
+<p><a href="{{ base_path }}/publications/">All publications &rarr;</a></p>

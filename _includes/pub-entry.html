@@ -1,0 +1,31 @@
+{% include base_path %}
+{% comment %}
+  Compact publication entry. Expects `post` (a publications document).
+  Citations are stored as: Authors. &quot;Title.&quot; <i>Journal</i>. Year; Vol:Pages.
+  The author list and the journal details are pulled out of that string so
+  the title is not repeated.
+{% endcomment %}
+{% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" | strip %}
+{% if post.citation %}
+  {% assign cparts = post.citation | split: "&quot;" %}
+  {% assign authors_raw = cparts[0] | remove: "<b>" | remove: "</b>" | strip %}
+  {% assign details = cparts | last | strip %}
+{% endif %}
+{% assign first_two = authors_raw | slice: 0, 5 %}
+{% assign authors = authors_raw | replace: "#", "<sup>#</sup>" | replace: "Qiu Z", '<span class="pub__me">Qiu Z</span>' %}
+<li class="pub">
+  <div class="pub__body">
+    <a class="pub__title" href="{{ base_path }}{{ post.url }}">{{ title }}</a>
+    {% if authors %}<div class="pub__authors">{{ authors }}</div>{% endif %}
+    <div class="pub__venue">
+      {% if details and cparts.size > 2 %}{{ details }}{% else %}<i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}{% endif %}
+    </div>
+    <div class="pub__links">
+      {% if first_two == "Qiu Z" %}
+        {% if authors_raw contains "Qiu Z#" %}<span class="tag tag--accent">Co-first author</span>{% else %}<span class="tag tag--accent">First author</span>{% endif %}
+      {% endif %}
+      {% if post.paperurl %}<a class="tag tag--link" href="{{ post.paperurl }}"><i class="fas fa-external-link-alt" aria-hidden="true"></i> DOI</a>{% endif %}
+      <a class="tag tag--link" href="{{ base_path }}{{ post.url }}"><i class="fas fa-align-left" aria-hidden="true"></i> Abstract</a>
+    </div>
+  </div>
+</li>
