@@ -6,11 +6,11 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "zh-CN"
+locale                   : "en-US"
 title                    : "Zhilang Qiu"
 title_separator          : "-"
 name                     : &name "Zhilang Qiu"
-description              : &description "Postdoctoral Research Fellow at McLean Hospital / Harvard Medical School. Developing advanced MRI and MRS techniques for neuropsychiatric disorders."
+description              : &description "Postdoctoral Research Fellow, McLean Hospital / Harvard Medical School"
 url                      : https://zhilangqiu.github.io # the base hostname & protocol for your site e.g. "https://zhilangqiu.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ZhilangQiu/zhilangqiu.github.io"
@@ -82,13 +82,13 @@ analytics:
 author:
   name             : "Zhilang Qiu"
   avatar           : "photo_qzl.jpg"
-  bio              : "Postdoctoral Research Fellow, McLean Hospital / Harvard Medical School"
+  bio              : "Postdoctoral Research Fellow, McLean Hospital / Harvard Medical School. MRI & MRS methods for neuropsychiatric disorders."
   location         : "Belmont, MA, USA"
   employer         :
   pubmed           : "https://pubmed.ncbi.nlm.nih.gov/?term=Zhilang+Qiu"
   googlescholar    : "https://scholar.google.com/citations?user=tmgnYv4AAAAJ"
-  email            :
-  researchgate     :  "https://www.researchgate.net/profile/Zhilang-Qiu"
+  email            : "zqiu2@mclean.harvard.edu"
+  researchgate     : "https://www.researchgate.net/profile/Zhilang-Qiu"
   uri              :
   bitbucket        :
   codepen          :

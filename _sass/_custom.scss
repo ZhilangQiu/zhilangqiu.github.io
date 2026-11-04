@@ -1,0 +1,133 @@
+/* ==========================================================================
+   Custom site-specific overrides
+   ========================================================================== */
+
+$site-blue: #1565C0;
+$site-blue-light: #1976D2;
+$site-blue-pale: #E3F2FD;
+
+/* Links — consistent blue throughout */
+a {
+  color: $site-blue-light;
+
+  &:visited {
+    color: $site-blue;
+  }
+
+  &:hover {
+    color: $site-blue;
+    text-decoration: underline;
+  }
+}
+
+/* Masthead nav links */
+.masthead a,
+.masthead a:visited {
+  color: $site-blue;
+}
+
+.greedy-nav a {
+  color: $site-blue;
+
+  &:hover {
+    color: $site-blue-light;
+  }
+}
+
+/* Author profile sidebar */
+.author__name {
+  font-size: 1.1em;
+  font-weight: 700;
+  color: $site-blue;
+}
+
+.author__bio {
+  font-style: normal;
+  color: #555;
+}
+
+.author__urls-wrapper a,
+.author__urls a {
+  color: $site-blue-light;
+
+  &:hover {
+    color: $site-blue;
+  }
+}
+
+/* Avatar — slightly larger and with a subtle border */
+.author__avatar img {
+  border-radius: 50%;
+  border: 3px solid $site-blue-pale;
+  max-width: 165px;
+}
+
+/* Page/archive list items */
+.list__item .archive__item-title a {
+  color: $site-blue;
+
+  &:hover {
+    color: $site-blue-light;
+    text-decoration: underline;
+  }
+}
+
+/* Publication venue text */
+.page__meta {
+  color: #666;
+  font-size: 0.85em;
+}
+
+/* h3 in content */
+.page__content h3 {
+  color: $site-blue;
+  font-size: 1.1em;
+  margin-top: 1.5em;
+}
+
+/* Footer */
+.page__footer {
+  background-color: #263238;
+  color: #cfd8dc;
+
+  a {
+    color: #90CAF9;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  .page__footer-follow li {
+    color: #cfd8dc;
+  }
+}
+
+/* Masthead — subtle dark top bar */
+.masthead {
+  background-color: #fff;
+  border-bottom: 2px solid $site-blue;
+
+  .site-title {
+    font-weight: 700;
+    color: $site-blue;
+    font-size: 1.1em;
+  }
+}
+
+/* Archive items on publications/talks pages */
+.archive__item {
+  border-bottom: 1px solid #ECEFF1;
+  padding-bottom: 0.75em;
+  margin-bottom: 0.5em;
+}
+
+.archive__item:last-child {
+  border-bottom: none;
+}
+
+/* Subtle highlight on paper links */
+.archive__item a[href^="http"] {
+  color: $site-blue-light;
+  font-weight: 500;
+}
