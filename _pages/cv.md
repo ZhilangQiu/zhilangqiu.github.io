@@ -11,39 +11,32 @@ redirect_from:
 
 Education
 ======
-* **Ph.D.** in Pattern Recognition and Intelligent Systems
-  * University of Chinese Academy of Sciences (UCAS), Beijing, China
+* **Doctor of Philosophy** (09/2015 – 06/2021)
+  * University of Chinese Academy of Sciences, Beijing, China
+  * Major: Pattern Recognition and Intelligent System
+  * Dissertation: *Fast Three-Dimensional Magnetic Resonance Imaging*
   * Research conducted at the Paul C. Lauterbur Research Centre for Biomedical Imaging, Shenzhen Institutes of Advanced Technology (SIAT), Chinese Academy of Sciences
-  * Dissertation: Advanced MRI acquisition, reconstruction, and quantification methods
 
-* **B.Eng.** in Biomedical Engineering
+* **Bachelor of Engineering** (09/2011 – 06/2015)
   * Southern Medical University, Guangzhou, China
+  * Major: Biomedical Engineering
+  * Ranked 2nd out of 330 students in Biomedical Engineering
 
-Work Experience
+Experience
 ======
-* **Postdoctoral Research Fellow** (Mar 2025 – Present)
-  * Laboratory for High-Field Imaging and Translational Neuroscience, McLean Hospital
+* **Postdoctoral Research Fellow** (03/2025 – Present)
+  * Division of Psychotic Disorders, McLean Hospital
+  * McLean Imaging Center, McLean Hospital
   * Department of Psychiatry, Harvard Medical School, Boston, MA, USA
-  * Focus: Glymphatic MRI, ³¹P MR spectroscopic imaging, multimodal neuroimaging for neuropsychiatric disorders
+  * Research focus: Glymphatic MRI, ¹H and ³¹P MRSI, and translational MR in psychiatry
 
-* **Research Scientist** (Dec 2023 – Mar 2025)
+* **Research Scientist** (12/2023 – 03/2025)
   * Department of Biomedical Engineering, Case Western Reserve University, Cleveland, OH, USA
-  * Focus: Multidimensional MR Fingerprinting, quantitative MRI, diffusion MRI
+  * Research focus: MR fingerprinting, quantitative MRI, and diffusion MRI
 
-* **Postdoctoral Scholar** (Oct 2021 – Dec 2023)
+* **Postdoctoral Scholar** (10/2021 – 10/2023)
   * Department of Biomedical Engineering, Case Western Reserve University, Cleveland, OH, USA
-  * Focus: MR Fingerprinting, quantitative MRI, subspace reconstruction
-
-* **Ph.D. Researcher** (2017 – 2021)
-  * Paul C. Lauterbur Research Centre for Biomedical Imaging, SIAT, Chinese Academy of Sciences, Shenzhen, China
-  * Focus: Wave-CAIPI parallel MRI, dynamic MRI reconstruction, quantitative MRI
-
-Skills
-======
-* **MRI Methods**: Parallel imaging, compressed sensing, MR Fingerprinting, diffusion MRI, MR spectroscopy, quantitative MRI, Wave-CAIPI, low-rank reconstruction
-* **Programming**: MATLAB, Python (NumPy, SciPy, PyTorch, TensorFlow), C++
-* **MRI Systems**: Siemens and GE scanner platforms, pulse sequence development (IDEA/EPIC)
-* **Data Analysis**: Statistical analysis, deep learning for MRI reconstruction, image processing
+  * Research focus: MR fingerprinting, quantitative MRI, and diffusion MRI
 
 Publications
 ======
@@ -51,13 +44,34 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-Talks
+Talks & Presentations
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
 
-Selected Awards & Service
+Awards & Honors
 ======
-* Reviewer: *Magnetic Resonance in Medicine*, *Medical Image Analysis*, *IEEE Transactions on Medical Imaging*
-* Member: International Society for Magnetic Resonance in Medicine (ISMRM)
+* **Second Place, MR in Psychiatry Study Group Award** (2026)
+  * MR in Psychiatry Study Group, ISMRM
+
+* **Trainee Educational Stipend** (2018, 2019, 2020)
+  * International Society for Magnetic Resonance in Medicine (ISMRM)
+
+* **President's Scholarship Special Prize** (2020)
+  * Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences
+
+* **Director's Innovation Fund Student Award** (2020)
+  * Institute of Biomedical and Health Engineering, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences
+
+* **Excellent Student Award** (2019)
+  * University of Chinese Academy of Sciences
+
+Service
+======
+* **Conference Reviewer**: ISMRM & ISMRT Annual Meeting & Exhibition (2023, 2024, 2026)
+* **Ad hoc Journal Reviewer**: *Frontiers in Neurology* (2026), *Medical Physics* (2025)
+
+Memberships
+======
+* International Society for Magnetic Resonance in Medicine (ISMRM), Trainee Member (2018 – Present)
